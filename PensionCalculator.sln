@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "PensionCalculator", "PensionCalculator\PensionCalculator.isproj", "{774C9A7A-2D8A-459D-8413-966C6E33DE97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527} = {EC98C34B-8C1D-4BA6-88BA-772602D50527}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pension_and_Commute_Calculator", "..\SetUpPC\Pension_and_Commute_Calculator\Pension_and_Commute_Calculator.csproj", "{EC98C34B-8C1D-4BA6-88BA-772602D50527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.Debug|Any CPU.ActiveCfg = DVD-5
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.Debug|Any CPU.Build.0 = DVD-5
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.DVD-5|Any CPU.Build.0 = DVD-5
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.Release|Any CPU.ActiveCfg = SingleImage
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.Release|Any CPU.Build.0 = SingleImage
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{774C9A7A-2D8A-459D-8413-966C6E33DE97}.SingleImage|Any CPU.Build.0 = SingleImage
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{EC98C34B-8C1D-4BA6-88BA-772602D50527}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
